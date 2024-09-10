@@ -1,0 +1,111 @@
+{
+  "code-runner.runInTerminal": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.accessibilitySupport": "off",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "underline",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.minimap.autohide": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.smoothScrolling": true,
+  "editor.suggestSelection": "first",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "files.trimFinalNewlines": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "vim.cursorStylePerMode.replace": "block-outline",
+  "vim.highlightedyank.enable": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#5f00af",
+    "statusBar.noFolderBackground": "#00afa9"
+  },
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.minimap.renderCharacters": false,
+  "git.ignoreLegacyWarning": true,
+  "githubPullRequests.pullBranch": "never",
+  "editor.fontLigatures": false,
+  "editor.fontFamily": "Fira Code",
+  "workbench.sideBar.location": "right",
+  "git.confirmSync": false,
+  "breadcrumbs.enabled": false,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "editor.guides.indentation": false,
+  "vim.smartRelativeLine": true,
+  "window.commandCenter": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.density.editorTabHeight": "compact",
+  "window.zoomPerWindow": false,
+  "window.zoomLevel": 0.5,
+  "editor.cursorSurroundingLines": 10,
+  "editor.fontSize": 13,
+  "vim.useSystemClipboard": true,
+  "vim.leader": " ",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["g", "g", "d", "G"]
+    },
+    {
+      "before": ["<leader>", "y"],
+      "after": ["g", "g", "y", "G"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "after": ["2", "6", "j"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "after": ["2", "6", "k"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "after": ["P", "j", "d", "d"]
+    }
+  ],
+  "workbench.panel.opensMaximized": "never",
+  "find-it-faster.general.showMaximizedTerminal": true,
+  "find-it-faster.general.openFileInPreviewEditor": true,
+  "terminal.integrated.enablePersistentSessions": false,
+  "github.copilot.chat.welcomeMessage": "never",
+  "workbench.editor.empty.hint": "hidden"
+}
