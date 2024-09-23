@@ -3,11 +3,18 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  'ThePrimeagen/harpoon',
-  branch = 'harpoon2',
-  dependencies = { 'nvim-lua/plenary.nvim' },
-  'nvim-tree/nvim-tree.lua',
-  requires = {
-    'nvim-tree/nvim-web-devicons', -- optional
+  {
+    'ThePrimeagen/harpoon',
+    branch = 'harpoon2',
+    dependencies = { 'nvim-lua/plenary.nvim' },
+    'nvim-tree/nvim-tree.lua',
+    requires = {
+      'nvim-tree/nvim-web-devicons', -- optional
+    },
+  },
+  {
+    'yoleuh/quandary-nvim',
+    ft = { 'quandary' },
+    config = true,
   },
 }

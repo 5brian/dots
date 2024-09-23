@@ -925,3 +925,5 @@ require('lazy').setup({
 --
 
 vim.api.nvim_set_keymap('n', '<C-n>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<S-j>', '26j', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<S-k>', '26k', { noremap = true, silent = true })

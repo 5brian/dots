@@ -28,12 +28,6 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.factorypath": true,
-    "**/.project": true,
-    "**/.settings": true
-  },
   "files.trimFinalNewlines": true,
   "git.autofetch": true,
   "git.enableSmartCommit": true,
@@ -75,9 +69,8 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "window.density.editorTabHeight": "compact",
   "window.zoomPerWindow": false,
-  "window.zoomLevel": 0.5,
   "editor.cursorSurroundingLines": 10,
-  "editor.fontSize": 13,
+  "editor.fontSize": 13.5,
   "vim.useSystemClipboard": true,
   "vim.leader": " ",
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -90,16 +83,32 @@
       "after": ["g", "g", "y", "G"]
     },
     {
-      "before": ["<leader>", "j"],
+      "before": ["<S-j>"],
       "after": ["2", "6", "j"]
     },
     {
-      "before": ["<leader>", "k"],
+      "before": ["<S-k>"],
       "after": ["2", "6", "k"]
     },
     {
       "before": ["<leader>", "p"],
       "after": ["P", "j", "d", "d"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["ctrl+j"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["ctrl+k"],
+      "commands": ["editor.action.moveLinesUpAction"]
     }
   ],
   "workbench.panel.opensMaximized": "never",
@@ -107,5 +116,16 @@
   "find-it-faster.general.openFileInPreviewEditor": true,
   "terminal.integrated.enablePersistentSessions": false,
   "github.copilot.chat.welcomeMessage": "never",
-  "workbench.editor.empty.hint": "hidden"
+  "workbench.editor.empty.hint": "hidden",
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "vim.easymotion": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "java.debug.settings.enableRunDebugCodeLens": false,
+  "editor.scrollbar.vertical": "hidden",
+  "terminal.integrated.fontSize": 13,
+  "errorLens.fontStyleItalic": true
 }
