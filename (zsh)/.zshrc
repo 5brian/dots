@@ -104,6 +104,7 @@ alias next="npx create-next-app@latest"
 alias nrd="npm run dev"
 alias l="lazygit"
 alias cl="clear"
+alias t="tmux a"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
