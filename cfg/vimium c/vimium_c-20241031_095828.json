@@ -1,15 +1,15 @@
 {
 	"name": "Vimium C",
-	"@time": "9/23/2024, 6:32:24 PM",
-	"time": 1727130744543,
+	"@time": "10/31/2024, 9:58:28 AM",
+	"time": 1730383108970,
 	"environment": {
-		"extension": "2.11.3",
+		"extension": "1.99.997",
 		"platform": "mac",
-		"chromium": 128
+		"firefox": 133
 	},
 	"autoDarkMode": 1,
 	"exclusionRules": [],
-	"keyLayout": 2,
+	"keyLayout": 1,
 	"keyMappings": [
 		"#!no-check",
 		"unmapAll",
@@ -44,8 +44,12 @@
 		"map v LinkHints.activate",
 		"map V LinkHints.activateOpenInNewForegroundTab",
 		"map R goToRoot",
+		"map H scrollLeft",
+		"map L scrollRight",
 		""
 	],
-	"scrollStepSize": 90,
-	"vimSync": true
+	"searchEngines": "#",
+	"showActionIcon": false,
+	"vimSync": true,
+	"ignoreKeyboardLayout": 2
 }
