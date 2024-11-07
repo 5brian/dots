@@ -63,7 +63,6 @@
   "git.confirmSync": false,
   "breadcrumbs.enabled": false,
   "workbench.colorTheme": "Catppuccin Mocha",
-  "editor.guides.indentation": false,
   "vim.smartRelativeLine": true,
   "window.commandCenter": false,
   "workbench.editor.editorActionsLocation": "hidden",
@@ -127,5 +126,14 @@
   "java.debug.settings.enableRunDebugCodeLens": false,
   "editor.scrollbar.vertical": "hidden",
   "terminal.integrated.fontSize": 13,
-  "errorLens.fontStyleItalic": true
+  "errorLens.fontStyleItalic": true,
+  "editor.guides.indentation": false,
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "latex-workshop.formatting.latex": "tex-fmt",
+  "editor.wordWrap": "on",
+  "chat.editor.wordWrap": "on",
+  "editor.lightbulb.enabled": "off",
+  "git.ignoreRebaseWarning": true
 }

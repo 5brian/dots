@@ -488,7 +488,7 @@
     "command": "-workbench.action.files.revealActiveFileInWindows"
   },
   {
-    "key": "cmd+p",
+    "key": "cmd+j",
     "command": "workbench.action.showCommands"
   },
   {
@@ -543,7 +543,7 @@
     "when": "terminal.active"
   },
   {
-    "key": "cmd+l",
+    "key": "cmd+k",
     "command": "find-it-faster.findFiles"
   },
   {
@@ -839,7 +839,7 @@
     "command": "-workbench.action.nextEditor"
   },
   {
-    "key": "cmd+j",
+    "key": "ctrl+a",
     "command": "workbench.action.previousEditor"
   },
   {
@@ -847,7 +847,7 @@
     "command": "-workbench.action.previousEditor"
   },
   {
-    "key": "cmd+k",
+    "key": "ctrl+s",
     "command": "workbench.action.nextEditor"
   },
   {
@@ -1051,5 +1051,51 @@
   {
     "key": "ctrl+cmd+left",
     "command": "-workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.action.findInFiles"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.action.terminal.searchWorkspace",
+    "when": "terminalFocus && terminalProcessSupported && terminalTextSelected"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.view.search",
+    "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "search.action.openEditor"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "-cursorLineStart",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "-extension.vim_ctrl+a",
+    "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "-extension.vim_ctrl+s",
+    "when": "editorTextFocus && vim.active && vim.use<C-s> && !inDebugRepl"
+  },
+  {
+    "key": "cmd+k i",
+    "command": "-inlineChat.start",
+    "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly"
+  },
+  {
+    "key": "cmd+p",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.nextEditor"
   }
 ]

@@ -1,8 +1,8 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-alias c="nvim ."
-alias v="code-insiders ."
+alias v="nvim ."
+alias c="code-insiders ."
 
 alias nv="nvim"
 alias code="code-insiders"

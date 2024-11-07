@@ -66,7 +66,7 @@ inner.horizontal = 10
 inner.vertical =   10
 outer.left =       10
 outer.bottom =     10
-outer.top =        34
+outer.top =        10
 outer.right =      10
 
 # 'main' binding mode declaration
@@ -153,7 +153,7 @@ alt-shift-semicolon = 'mode service'
 
 alt-q = 'join-with up'
 alt-w = 'join-with left'
-alt-d = '''exec-and-forget if [ $(expr $(aerospace list-windows --workspace focused | wc -l) % 2) -eq 0 ]; then
+alt-backspace = '''exec-and-forget if [ $(expr $(aerospace list-windows --workspace focused | wc -l) % 2) -eq 0 ]; then
   aerospace join-with up;
 else
   aerospace join-with left;
