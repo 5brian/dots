@@ -190,6 +190,6 @@ if.app-id = 'com.apple.finder'
 run = "layout floating"
 
 [[on-window-detected]]
-if.app-id = 'org.mozilla.firefox'
+if.app-id = 'org.mozilla.firefoxdeveloperedition'
 if.window-title-regex-substring = 'Picture-in-Picture'
-run = 'layout floating'
+run = "layout floating"
