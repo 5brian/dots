@@ -114,6 +114,9 @@ alias v="nvim ."
 alias c="code-insiders ."
 alias nv="nvim"
 alias code="code-insiders"
+alias gc="gh repo clone"
+alias gp="git push"
+alias lazy="lazygit"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
