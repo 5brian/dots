@@ -145,6 +145,12 @@ alt-shift-7 = 'move-node-to-workspace 7'
 alt-shift-8 = 'move-node-to-workspace 8'
 alt-shift-9 = 'move-node-to-workspace 9'
 
+alt-shift-q = 'move-node-to-workspace 1'
+alt-shift-w = 'move-node-to-workspace 2'
+alt-shift-e = 'move-node-to-workspace 3'
+alt-shift-r = 'move-node-to-workspace 4'
+alt-shift-t = 'move-node-to-workspace 5'
+
 alt-shift-a = ['move-node-to-workspace prev', 'workspace prev']
 alt-shift-s = ['move-node-to-workspace next', 'workspace next']
 
