@@ -74,14 +74,6 @@
   "vim.leader": " ",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "d"],
-      "after": ["g", "g", "d", "G"]
-    },
-    {
-      "before": ["<leader>", "y"],
-      "after": ["g", "g", "y", "G"]
-    },
-    {
       "before": ["<S-j>"],
       "after": ["2", "6", "j"]
     },
@@ -91,23 +83,7 @@
     },
     {
       "before": ["<leader>", "p"],
-      "after": ["P", "j", "d", "d"]
-    },
-    {
-      "before": [">"],
-      "commands": ["editor.action.indentLines"]
-    },
-    {
-      "before": ["<"],
-      "commands": ["editor.action.outdentLines"]
-    },
-    {
-      "before": ["ctrl+j"],
-      "commands": ["editor.action.moveLinesDownAction"]
-    },
-    {
-      "before": ["ctrl+k"],
-      "commands": ["editor.action.moveLinesUpAction"]
+      "after": ["p", "k", "d", "d"]
     }
   ],
   "workbench.panel.opensMaximized": "never",
@@ -128,12 +104,8 @@
   "terminal.integrated.fontSize": 13,
   "errorLens.fontStyleItalic": true,
   "editor.guides.indentation": false,
-  "[latex]": {
-    "editor.defaultFormatter": "James-Yu.latex-workshop"
-  },
-  "latex-workshop.formatting.latex": "tex-fmt",
   "editor.wordWrap": "on",
   "chat.editor.wordWrap": "on",
   "editor.lightbulb.enabled": "off",
-  "git.ignoreRebaseWarning": true
+  "workbench.activityBar.location": "bottom"
 }
