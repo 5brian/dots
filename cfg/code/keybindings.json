@@ -845,5 +845,33 @@
     "key": "cmd+e",
     "command": "workbench.action.toggleSidebarVisibility",
     "when": "explorerViewletFocus"
+  },
+  {
+    "key": "cmd+0",
+    "command": "-workbench.action.focusSideBar"
+  },
+  {
+    "key": "cmd+0",
+    "command": "git.openChange"
+  },
+  {
+    "key": "cmd+'",
+    "command": "editor.action.marker.next",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+f8",
+    "command": "-editor.action.marker.next",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+'",
+    "command": "editor.action.marker.prev",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+alt+f8",
+    "command": "-editor.action.marker.prev",
+    "when": "editorFocus"
   }
 ]
