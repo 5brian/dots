@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "11/7/2024, 4:41:51 PM",
-	"time": 1731015711441,
+	"@time": "12/6/2024, 11:48:24 PM",
+	"time": 1733546904806,
 	"environment": {
 		"extension": "1.99.997",
 		"platform": "mac",
-		"firefox": 133
+		"firefox": 1
 	},
 	"autoDarkMode": 1,
 	"exclusionRules": [],
@@ -46,6 +46,8 @@
 		"map R goToRoot",
 		"map H scrollLeft",
 		"map L scrollRight",
+		"map ; Vomnibar.activateEditUrl",
+		"map : Vomnibar.activateEditUrlInNewTab",
 		""
 	],
 	"searchEngines": "#",
