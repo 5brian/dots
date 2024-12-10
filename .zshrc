@@ -111,11 +111,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 alias v="nvim ."
-alias c="code-insiders ."
+alias c="zed ."
 alias nv="nvim"
 alias code="code-insiders"
 alias gc="gh repo clone"
-alias gp="git push"
 alias lazy="lazygit"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

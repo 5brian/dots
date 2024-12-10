@@ -26,8 +26,10 @@
   "relative_line_numbers": true,
   "vertical_scroll_margin": 5,
   "restore_on_startup": "none",
+  "cursor_blink": false,
   "tabs": {
     "git_status": true,
-    "file_icons": true
+    "file_icons": true,
+    "show_diagnostics": "all"
   }
 }
