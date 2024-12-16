@@ -12,11 +12,47 @@
       "shift shift": "file_finder::Toggle"
     }
   },
+
   {
     "context": "Editor && vim_mode == normal",
     "bindings": {
+      "ctrl-n": "project_panel::ToggleFocus",
       "shift-j": ["workspace::SendKeystrokes", "2 6 j"],
       "shift-k": ["workspace::SendKeystrokes", "2 6 k"]
     }
+  },
+
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "ctrl-n": "workspace::ToggleRightDock"
+    }
+  },
+
+  {
+    "context": "ProjectPanel || CollabPanel || OutlinePanel || ChatPanel || VimControl || EmptyPane || SharedScreen || MarkdownPreview || KeyContextView",
+    "bindings": {
+      "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
+      "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
+      "ctrl-k": ["workspace::ActivatePaneInDirection", "Up"],
+      "ctrl-j": ["workspace::ActivatePaneInDirection", "Down"]
+    }
   }
+
+  // -- Keymaps
+  //
+  // -- Keybinds to make split navigation easier.
+  // --  Use CTRL+<hjkl> to switch between windows
+  // --
+  // --  See `:help wincmd` for a list of all window commands
+  //
+  // vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
+  // vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })
+  // vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
+  // vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
+  //
+  // vim.api.nvim_set_keymap('n', '<C-n>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
+  //
+  // vim.api.nvim_set_keymap('n', '<S-j>', '26j', { noremap = true, silent = true })
+  // vim.api.nvim_set_keymap('n', '<S-k>', '26k', { noremap = true, silent = true })
 ]

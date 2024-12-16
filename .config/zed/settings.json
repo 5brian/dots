@@ -21,14 +21,21 @@
     "dark": "One Dark"
   },
   "ui_font_size": 16,
+  "ui_font_family": "Fira Code",
   "buffer_font_size": 16,
   "buffer_font_family": "Fira Code",
+  "buffer_line_height": "standard",
   "relative_line_numbers": true,
   "vertical_scroll_margin": 5,
+
   "tabs": {
     "git_status": true,
     "file_icons": true,
     "show_diagnostics": "all"
+  },
+  "project_panel": {
+    "default_width": 280,
+    "dock": "right"
   },
 
   "vim_mode": true,
