@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  // 1 - assistant
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
@@ -15,29 +16,32 @@
     "version": "2"
   },
 
+  // 2 - appearance
+  "ui_font_size": 16,
+  "ui_font_family": "Fira Code",
+  "buffer_font_size": 16,
+  "buffer_font_family": "Fira Code",
+  "relative_line_numbers": true,
+  "vertical_scroll_margin": 5,
+
   "theme": {
     "mode": "system",
     "light": "One Light",
     "dark": "One Dark"
   },
-  "ui_font_size": 16,
-  "ui_font_family": "Fira Code",
-  "buffer_font_size": 16,
-  "buffer_font_family": "Fira Code",
-  "buffer_line_height": "standard",
-  "relative_line_numbers": true,
-  "vertical_scroll_margin": 5,
 
   "tabs": {
     "git_status": true,
     "file_icons": true,
     "show_diagnostics": "all"
   },
+
   "project_panel": {
     "default_width": 280,
     "dock": "right"
   },
 
+  // 3 - functionality
   "vim_mode": true,
   "restore_on_startup": "none"
 }
