@@ -1,5 +1,5 @@
-# cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
-
 cmd + alt - q : open -na "Zen Browser"
 
-cmd + alt - w : open -na "WezTerm"
+cmd + alt - w : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+
+cmd + alt - e : open -a "Zed Preview"
