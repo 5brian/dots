@@ -1,6 +1,6 @@
-cmd - escape : open -na "Zen Browser"
+cmd - escape : open -na "Zen Twilight"
 
-cmd + alt - q : open -na "Zen Browser"
+cmd + alt - q : open -na "Zen Twilight"
 
 cmd + alt - w : open -na "Ghostty"
 
