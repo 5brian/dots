@@ -37,6 +37,10 @@
     "show_diagnostics": "all"
   },
 
+  "tab_bar": {
+    "show": false
+  },
+
   "project_panel": {
     "default_width": 280,
     "dock": "right"
