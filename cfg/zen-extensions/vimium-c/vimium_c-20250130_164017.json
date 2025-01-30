@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "12/6/2024, 11:48:24 PM",
-	"time": 1733546904806,
+	"@time": "1/30/2025, 4:40:17 PM",
+	"time": 1738273217483,
 	"environment": {
-		"extension": "1.99.997",
+		"extension": "2.11.3",
 		"platform": "mac",
-		"firefox": 1
+		"chromium": 132
 	},
 	"autoDarkMode": 1,
 	"exclusionRules": [],
@@ -13,9 +13,12 @@
 	"keyMappings": [
 		"#!no-check",
 		"unmapAll",
-		"map P moveTabToNextWindow",
-		"map e moveTabRight",
-		"map E moveTabLeft",
+		"map gi focusInput",
+		"map i enterInsertMode",
+		"map e moveTabToNewWindow",
+		"map E moveTabToNextWindow",
+		"map S moveTabRight",
+		"map A moveTabLeft",
 		"map F Vomnibar.activateBookmarks",
 		"map f Vomnibar.activateBookmarksInNewTab",
 		"map D Vomnibar.activate",
@@ -40,7 +43,6 @@
 		"map Q restoreTab",
 		"map h goBack",
 		"map l goForward",
-		"map p moveTabToNewWindow",
 		"map v LinkHints.activate",
 		"map V LinkHints.activateOpenInNewForegroundTab",
 		"map R goToRoot",
