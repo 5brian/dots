@@ -8,6 +8,10 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // 1 - assistant
+  "features": {
+    "inline_completion_provider": "zed"
+  },
+  "icon_theme": "Zed (Default)",
   "assistant": {
     "dock": "left",
     "default_model": {
