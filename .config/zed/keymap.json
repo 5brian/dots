@@ -10,6 +10,7 @@
     "context": "Workspace",
     "bindings": {
       "shift shift": "file_finder::Toggle",
+      "cmd-shift-p": "file_finder::Toggle",
       "cmd-j": "command_palette::Toggle",
       "cmd-p": "workspace::ToggleBottomDock"
     }
