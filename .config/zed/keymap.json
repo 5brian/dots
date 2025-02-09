@@ -9,8 +9,8 @@
   {
     "context": "Workspace",
     "bindings": {
-      "shift shift": "command_palette::Toggle",
-      "cmd-j": "file_finder::Toggle",
+      "shift shift": "file_finder::Toggle",
+      "cmd-j": "command_palette::Toggle",
       "cmd-p": "workspace::ToggleBottomDock"
     }
   },
@@ -34,10 +34,10 @@
   {
     "context": "ProjectPanel || CollabPanel || OutlinePanel || ChatPanel || VimControl || EmptyPane || SharedScreen || MarkdownPreview || KeyContextView",
     "bindings": {
-      "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
-      "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
-      "ctrl-k": ["workspace::ActivatePaneInDirection", "Up"],
-      "ctrl-j": ["workspace::ActivatePaneInDirection", "Down"]
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-j": "workspace::ActivatePaneDown"
     }
   }
 
