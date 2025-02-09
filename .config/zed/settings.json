@@ -9,9 +9,9 @@
 {
   // 1 - assistant
   "features": {
-    "inline_completion_provider": "zed"
+    "edit_prediction_provider": "zed"
   },
-  "icon_theme": "Zed (Default)",
+  "icon_theme": "Catppuccin Frappé",
   "assistant": {
     "dock": "left",
     "default_model": {
