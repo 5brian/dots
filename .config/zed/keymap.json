@@ -11,8 +11,8 @@
     "bindings": {
       "shift shift": "command_palette::Toggle",
       "cmd-j": "file_finder::Toggle",
-      "cmd-shift-j": "outline::Toggle",
-      "cmd-p": "workspace::ToggleBottomDock"
+      "cmd-shift-j": "project_symbols::Toggle",
+      "cmd-t": "workspace::ToggleBottomDock"
     }
   },
 
