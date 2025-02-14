@@ -51,5 +51,7 @@
 
   // 3 - functionality
   "vim_mode": true,
-  "restore_on_startup": "none"
+  "restore_on_startup": "none",
+  "when_closing_with_no_tabs": "keep_window_open",
+  "use_system_path_prompts": false
 }
