@@ -20,8 +20,8 @@
     "context": "Editor && vim_mode == normal",
     "bindings": {
       "ctrl-n": "project_panel::ToggleFocus",
-      "shift-j": ["workspace::SendKeystrokes", "2 6 j"],
-      "shift-k": ["workspace::SendKeystrokes", "2 6 k"]
+      "shift-j": "vim::ScrollDown",
+      "shift-k": "vim::ScrollUp"
     }
   },
 
