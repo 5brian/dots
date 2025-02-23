@@ -14,30 +14,32 @@
       "cmd-t": "workspace::ToggleBottomDock"
     }
   },
-
   {
-    "context": "Editor && VimControl && !VimWaiting && !menu",
+    "context": "EmptyPane || vim_operator == none && vim_mode != insert",
     "bindings": {
       "space space": "tab_switcher::Toggle",
       "space s g": "pane::DeploySearch",
       "space s f": "file_finder::Toggle",
       "space s d": "diagnostics::Deploy",
       "space s s": "project_symbols::Toggle",
-      "space g b": "editor::ToggleGitBlame",
+      "space g b": "editor::ToggleGitBlame"
+    }
+  },
+  {
+    "context": "Editor && VimControl && !VimWaiting && !menu",
+    "bindings": {
       "shift-j": "vim::ScrollDown",
       "shift-k": "vim::ScrollUp",
       "ctrl-u": "vim::JoinLines",
       "ctrl-n": "project_panel::ToggleFocus"
     }
   },
-
   {
     "context": "ProjectPanel",
     "bindings": {
       "ctrl-n": "workspace::ToggleRightDock"
     }
   },
-
   {
     "context": "ProjectPanel || CollabPanel || OutlinePanel || ChatPanel || VimControl || EmptyPane || SharedScreen || MarkdownPreview || KeyContextView || Dock",
     "bindings": {
@@ -47,7 +49,6 @@
       "ctrl-j": "workspace::ActivatePaneDown"
     }
   },
-
   {
     "context": "vim_mode == normal && !menu",
     "bindings": {
