@@ -10,18 +10,24 @@
     "context": "Workspace",
     "bindings": {
       "shift shift": "command_palette::Toggle",
-      "cmd-j": "file_finder::Toggle",
-      "cmd-shift-j": "project_symbols::Toggle",
+      "cmd-j": "command_palette::Toggle",
       "cmd-t": "workspace::ToggleBottomDock"
     }
   },
 
   {
-    "context": "Editor && vim_mode == normal",
+    "context": "Editor && VimControl && !VimWaiting && !menu",
     "bindings": {
-      "ctrl-n": "project_panel::ToggleFocus",
+      "space space": "tab_switcher::Toggle",
+      "space s g": "pane::DeploySearch",
+      "space s f": "file_finder::Toggle",
+      "space s d": "diagnostics::Deploy",
+      "space s s": "project_symbols::Toggle",
+      "space g b": "editor::ToggleGitBlame",
       "shift-j": "vim::ScrollDown",
-      "shift-k": "vim::ScrollUp"
+      "shift-k": "vim::ScrollUp",
+      "ctrl-u": "vim::JoinLines",
+      "ctrl-n": "project_panel::ToggleFocus"
     }
   },
 
@@ -33,12 +39,19 @@
   },
 
   {
-    "context": "ProjectPanel || CollabPanel || OutlinePanel || ChatPanel || VimControl || EmptyPane || SharedScreen || MarkdownPreview || KeyContextView",
+    "context": "ProjectPanel || CollabPanel || OutlinePanel || ChatPanel || VimControl || EmptyPane || SharedScreen || MarkdownPreview || KeyContextView || Dock",
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-l": "workspace::ActivatePaneRight",
       "ctrl-k": "workspace::ActivatePaneUp",
       "ctrl-j": "workspace::ActivatePaneDown"
+    }
+  },
+
+  {
+    "context": "vim_mode == normal && !menu",
+    "bindings": {
+      "shift-y": ["workspace::SendKeystrokes", "y $"] // Use neovim's yank behavior: yank to end of line.
     }
   }
 
