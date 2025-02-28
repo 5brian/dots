@@ -12,7 +12,7 @@
     "dock": "left",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-4o"
+      "model": "claude-3-7-sonnet"
     },
     "version": "2"
   },
@@ -30,6 +30,7 @@
   },
   "relative_line_numbers": true,
   "vertical_scroll_margin": 10,
+  "soft_wrap": "editor_width",
   "theme": {
     "mode": "system",
     "light": "One Light",
