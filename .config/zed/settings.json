@@ -45,14 +45,27 @@
   "tab_bar": {
     "show": false
   },
+  "inlay_hints": {
+    "toggle_on_modifiers_press": {
+      "alt": true
+    }
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
   "project_panel": {
     "default_width": 280,
     "dock": "right"
   },
+  "terminal": {
+    "line_height": "standard"
+  },
 
   // 3 - functionality
   "vim_mode": true,
+  "use_system_path_prompts": false,
   "restore_on_startup": "none",
-  "when_closing_with_no_tabs": "keep_window_open",
-  "use_system_path_prompts": false
+  "when_closing_with_no_tabs": "keep_window_open"
 }
