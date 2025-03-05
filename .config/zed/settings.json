@@ -36,6 +36,19 @@
     "light": "One Light",
     "dark": "One Dark"
   },
+  "experimental.theme_overrides": {
+    "syntax": {
+      "variable.special": {
+        "font_style": "italic"
+      },
+      "comment": {
+        "font_style": "italic"
+      },
+      "comment.doc": {
+        "font_style": "italic"
+      }
+    }
+  },
   "icon_theme": "Catppuccin Frappé",
   "tabs": {
     "git_status": true,
