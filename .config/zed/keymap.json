@@ -21,6 +21,7 @@
       "space s f": "file_finder::Toggle",
       "space s d": "diagnostics::Deploy",
       "space s s": "project_symbols::Toggle",
+      "space s a": "assistant::ToggleFocus",
       "space g g": "git_panel::ToggleFocus",
       "space g b": "git::Blame",
       "space g s": "git::Branch"
