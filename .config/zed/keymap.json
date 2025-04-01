@@ -22,9 +22,23 @@
       "space s d": "diagnostics::Deploy",
       "space s s": "project_symbols::Toggle",
       "space s a": "assistant::ToggleFocus",
+      "space d s": "outline::Toggle",
       "space g g": "git_panel::ToggleFocus",
       "space g b": "git::Blame",
-      "space g s": "git::Branch"
+      "space g s": "git::Branch",
+      "space h d": "git::Diff",
+      "space h p": "editor::ToggleSelectedDiffHunks",
+      "space h shift-p": "editor::ExpandAllDiffHunks",
+      "space h r": "git::Restore",
+      "space h shift-r": "git::RestoreFile",
+      "space h s": "git::ToggleStaged",
+      "space h n": "git::StageAndNext",
+      "space h shift-s": "git::StageAll",
+      "space h u": "git::UnstageAndNext",
+      "space h shift-u": "git::UnstageAll",
+      "space r": "editor::Rename",
+      "space f": "editor::Format",
+      "space c": "editor::ToggleCodeActions"
     }
   },
   {
@@ -45,7 +59,22 @@
       "ctrl-n": "workspace::ToggleRightDock"
     }
   },
-  // tweaks
+  {
+    "context": "TabSwitcher",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-d": "tab_switcher::CloseSelectedItem"
+    }
+  },
+  {
+    "context": "Editor && showing_completions",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-y": "editor::ConfirmCompletion",
+      "enter": "editor::Newline"
+    }
+  },
+  // vim tweaks
   {
     "context": "vim_mode == normal && !menu",
     "bindings": {
@@ -56,6 +85,12 @@
     "context": "vim_operator == a || vim_operator == i || vim_operator == cs",
     "bindings": {
       "b": "vim::AnyBrackets"
+    }
+  },
+  {
+    "context": "vim_mode == visual",
+    "bindings": {
+      "shift-s": ["vim::PushAddSurrounds", {}]
     }
   },
   // global nav
@@ -96,21 +131,4 @@
       "alt-y": "editor::AcceptEditPrediction"
     }
   }
-
-  // -- Keymaps
-  //
-  // -- Keybinds to make split navigation easier.
-  // --  Use CTRL+<hjkl> to switch between windows
-  // --
-  // --  See `:help wincmd` for a list of all window commands
-  //
-  // vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
-  // vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })
-  // vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
-  // vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
-  //
-  // vim.api.nvim_set_keymap('n', '<C-n>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
-  //
-  // vim.api.nvim_set_keymap('n', '<S-j>', '26j', { noremap = true, silent = true })
-  // vim.api.nvim_set_keymap('n', '<S-k>', '26k', { noremap = true, silent = true })
 ]
