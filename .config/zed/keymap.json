@@ -48,8 +48,8 @@
       "shift-k": "vim::ScrollUp",
       "shift-h": "editor::Hover",
       "shift-l": "vim::JoinLines",
-      "ctrl-d": "vim::NextSectionStart",
-      "ctrl-u": "vim::PreviousSectionStart",
+      "ctrl-d": "vim::NextMethodStart",
+      "ctrl-u": "vim::PreviousMethodStart",
       "ctrl-n": "project_panel::ToggleFocus"
     }
   },

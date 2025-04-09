@@ -9,6 +9,37 @@
 {
   // 1 - assistant
   "assistant": {
+    "always_allow_tool_actions": false,
+    "default_profile": "write",
+    "profiles": {
+      "write": {
+        "name": "Write",
+        "tools": {
+          "open": true,
+          "bash": true,
+          "batch_tool": true,
+          "code_symbols": true,
+          "copy_path": true,
+          "create_file": true,
+          "delete_path": true,
+          "diagnostics": true,
+          "find_replace_file": true,
+          "edit_files": true,
+          "fetch": true,
+          "list_directory": true,
+          "move_path": true,
+          "now": true,
+          "path_search": true,
+          "read_file": true,
+          "regex_search": true,
+          "symbol_info": true,
+          "thinking": true,
+          "create_directory": true
+        },
+        "enable_all_context_servers": true,
+        "context_servers": {}
+      }
+    },
     "dock": "left",
     "default_model": {
       "provider": "copilot_chat",
@@ -34,9 +65,10 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "One Light"
+    "dark": "One Dark"
   },
   "experimental.theme_overrides": {
+    "editor.active_line_number": "#74ade8ff",
     "syntax": {
       "variable.special": {
         "font_style": "italic"
@@ -59,6 +91,7 @@
     "show": false
   },
   "inlay_hints": {
+    "show_background": true,
     "toggle_on_modifiers_press": {
       "alt": true
     }
