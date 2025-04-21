@@ -68,7 +68,7 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Xcode Default Darker"
+    "dark": "Xcode High Contrast Darker"
   },
   "experimental.theme_overrides": {
     "editor.active_line_number": "#74ade8ff",
