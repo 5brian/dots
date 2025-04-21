@@ -15,8 +15,11 @@
       "write": {
         "name": "Write",
         "tools": {
+          "contents": true,
+          "rename": true,
+          "code_actions": true,
           "open": true,
-          "bash": true,
+          "terminal": true,
           "batch_tool": true,
           "code_symbols": true,
           "copy_path": true,
@@ -59,13 +62,13 @@
   "buffer_line_height": {
     "custom": 1.45
   },
-  "relative_line_numbers": true,
+  // "relative_line_numbers": true,
   "vertical_scroll_margin": 10,
   "soft_wrap": "editor_width",
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "One Dark"
+    "dark": "Xcode Default Darker"
   },
   "experimental.theme_overrides": {
     "editor.active_line_number": "#74ade8ff",
@@ -88,11 +91,13 @@
     "show_diagnostics": "all"
   },
   "tab_bar": {
-    "show": false
+    "show": true,
+    "show_nav_history_buttons": false
   },
   "inlay_hints": {
     "show_background": true,
     "toggle_on_modifiers_press": {
+      "control": true,
       "alt": true
     }
   },
@@ -106,7 +111,10 @@
     "dock": "right"
   },
   "terminal": {
-    "line_height": "standard"
+    "line_height": "standard",
+    "toolbar": {
+      "breadcrumbs": false
+    }
   },
 
   // 3 - functionality
@@ -129,5 +137,11 @@
     "gpf": "git::ForcePush",
     "gc": "git::Commit",
     "gd": "git::Diff"
+  },
+  "vim": {
+    "use_multiline_find": true,
+    "use_smartcase_find": true,
+    "toggle_relative_line_numbers": true,
+    "normal_mode_on_focus_loss": true
   }
 }

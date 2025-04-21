@@ -1,10 +1,12 @@
+[core]
+	excludesfile = /Users/brian/.gitignore_global
+[user]
+	name = brian tan
+	email = brian.tan88@gmail.com
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[user]
-	name = brian tan
-	email = brian.tan88@gmail.com
-[core]
-	excludesfile = /Users/brian/.gitignore_global
+[push]
+	autoSetupRemote = true

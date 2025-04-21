@@ -1,111 +1,17 @@
 {
-  "code-runner.runInTerminal": true,
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
   },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.acceptSuggestionOnEnter": "off",
-  "editor.accessibilitySupport": "off",
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorStyle": "underline",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.minimap.autohide": true,
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-  "editor.smoothScrolling": true,
-  "editor.suggestSelection": "first",
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-  "files.trimFinalNewlines": true,
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
-  "redhat.telemetry.enabled": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "tailwindCSS.includeLanguages": {
-    "plaintext": "html"
-  },
-  "vim.cursorStylePerMode.replace": "block-outline",
-  "vim.highlightedyank.enable": true,
-  "vsicons.dontShowNewVersionMessage": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#5f00af",
-    "statusBar.noFolderBackground": "#00afa9"
-  },
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.layoutControl.enabled": false,
-  "workbench.startupEditor": "none",
-  "workbench.tips.enabled": false,
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "editor.minimap.renderCharacters": false,
-  "git.ignoreLegacyWarning": true,
-  "githubPullRequests.pullBranch": "never",
-  "editor.fontLigatures": false,
+  "editor.fontSize": 14,
   "editor.fontFamily": "Fira Code",
   "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
   "git.confirmSync": false,
-  "breadcrumbs.enabled": false,
-  "workbench.colorTheme": "Catppuccin Mocha",
-  "vim.smartRelativeLine": true,
-  "window.commandCenter": false,
-  "workbench.editor.editorActionsLocation": "hidden",
   "window.density.editorTabHeight": "compact",
-  "window.zoomPerWindow": false,
-  "editor.cursorSurroundingLines": 10,
-  "editor.fontSize": 13.5,
-  "vim.useSystemClipboard": true,
-  "vim.leader": " ",
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<S-j>"],
-      "after": ["2", "6", "j"]
-    },
-    {
-      "before": ["<S-k>"],
-      "after": ["2", "6", "k"]
-    },
-    {
-      "before": ["<leader>", "p"],
-      "after": ["p", "k", "d", "d"]
-    }
-  ],
-  "workbench.panel.opensMaximized": "never",
-  "find-it-faster.general.showMaximizedTerminal": true,
-  "find-it-faster.general.openFileInPreviewEditor": true,
-  "terminal.integrated.enablePersistentSessions": false,
-  "github.copilot.chat.welcomeMessage": "never",
-  "workbench.editor.empty.hint": "hidden",
-  "extensions.experimental.affinity": {
-    "vscodevim.vim": 1
-  },
-  "vim.easymotion": true,
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "java.debug.settings.enableRunDebugCodeLens": false,
-  "editor.scrollbar.vertical": "hidden",
-  "terminal.integrated.fontSize": 13,
-  "errorLens.fontStyleItalic": true,
-  "editor.guides.indentation": false,
   "editor.wordWrap": "on",
-  "chat.editor.wordWrap": "on",
-  "editor.lightbulb.enabled": "off",
-  "workbench.activityBar.location": "bottom"
+  "window.restoreWindows": "none",
+  "vscode-neovim.neovimClean": true,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "workbench.colorTheme": "Default Dark Modern"
 }
