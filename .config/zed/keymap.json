@@ -16,12 +16,12 @@
   {
     "context": "EmptyPane || vim_operator == none && vim_mode != insert",
     "bindings": {
-      "space space": "tab_switcher::Toggle",
+      "space space": "tab_switcher::ToggleAll",
       "space s g": "pane::DeploySearch",
       "space s f": "file_finder::Toggle",
       "space s d": "diagnostics::Deploy",
       "space s s": "project_symbols::Toggle",
-      "space s a": "assistant::ToggleFocus",
+      "space s a": "agent::ToggleFocus",
       "space d s": "outline::Toggle",
       "space g g": "git_panel::ToggleFocus",
       "space g b": "git::Blame",
@@ -50,7 +50,9 @@
       "shift-l": "vim::JoinLines",
       "ctrl-d": "vim::NextMethodStart",
       "ctrl-u": "vim::PreviousMethodStart",
-      "ctrl-n": "project_panel::ToggleFocus"
+      "ctrl-n": "project_panel::ToggleFocus",
+      "\\": "pane::ActivateNextItem",
+      "|": "pane::ActivatePreviousItem"
     }
   },
   {
@@ -95,7 +97,7 @@
   },
   // global nav
   {
-    "context": "ProjectPanel || CollabPanel || OutlinePanel || ChatPanel || VimControl || EmptyPane || SharedScreen || MarkdownPreview || KeyContextView || Dock",
+    "context": "Dock || AgentPanel || GitPanel || ProjectPanel || CollabPanel || OutlinePanel || ChatPanel || VimControl || EmptyPane || SharedScreen || MarkdownPreview || KeyContextView || DebugPanel",
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-l": "workspace::ActivatePaneRight",
