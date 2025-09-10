@@ -112,6 +112,7 @@ alias gl="git pull"
 alias gp="git push"
 alias gpf="git push --force-with-lease"
 alias gd="git diff"
+alias gu="git reset --soft HEAD~1"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
