@@ -57,12 +57,12 @@ preset = 'qwerty'
 #                 Monitor pattern is the same as for 'workspace-to-monitor-force-assignment'.
 #                 See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
 [gaps]
-inner.horizontal = 5
-inner.vertical =   5
-outer.left =       5
-outer.bottom =     5
-outer.top =        5
-outer.right =      5
+inner.horizontal = 1
+inner.vertical =   1
+outer.left =       1
+outer.bottom =     1
+outer.top =        1
+outer.right =      1
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -124,6 +124,7 @@ alt-6 = 'workspace 6'
 alt-7 = 'workspace 7'
 alt-8 = 'workspace 8'
 alt-9 = 'workspace 9'
+alt-0 = 'workspace 10'
 
 alt-q = 'workspace 1'
 alt-w = 'workspace 2'
@@ -144,6 +145,7 @@ alt-shift-6 = 'move-node-to-workspace 6'
 alt-shift-7 = 'move-node-to-workspace 7'
 alt-shift-8 = 'move-node-to-workspace 8'
 alt-shift-9 = 'move-node-to-workspace 9'
+alt-shift-0 = 'move-node-to-workspace 10'
 
 alt-shift-q = 'move-node-to-workspace 1'
 alt-shift-w = 'move-node-to-workspace 2'
@@ -209,3 +211,9 @@ run = "layout floating"
 [[on-window-detected]]
 if.app-id = 'com.kishanbagaria.jack'
 run = "layout floating"
+
+[[on-window-detected]]
+if.app-id="com.mitchellh.ghostty"
+run= [
+  "layout tiling",
+]
